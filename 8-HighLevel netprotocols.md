@@ -83,11 +83,12 @@
 ```
 
 
-*В качестве ответа приложите снимки экрана с выводом информации о сертификатах и результатом верификации:*
+#### Вывод информации о сертификатах и результат верификации со скриншотом:
 ```
 openssl x509 -subject -issuer -noout -in ca.pem
 openssl x509 -subject -issuer -noout -in certificate.crt
 openssl verify certificate.crt
 ```
+![Задание 3](https://github.com/user-attachments/assets/0c1f56f4-a4c1-4f3c-afd5-0400ccf1f23d)
 
-------
+
